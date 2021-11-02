@@ -1,145 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/favicon.png">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <title>Portfolio</title>
-</head>
-
-<body>
-    <header class="header">
-        <div class="header__container container">
-            <div class="logo">
-                HCDev <span style="color: red">(currently, site is under construction)</span>
-                <!-- <img width="80px" height="60px" src="./img/logo.png" alt=""> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Front-end developer</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="author-block anim-item">
+          <div class="author-block-item line-word">
+            <span>Hey,</span>
+          </div>
+          <div class="author-block-item title">
+            <span>I'm Hlukhanych Bogdan</span>
+          </div>
+          <div class="author-block-item description">
+            <span>Front-end Developer</span>
+          </div>
+          <div class="author-block-item">
+            <div class="buttons">
+              <div class="author-portfolio">
+                <a href="/#portfolio">
+                  <span class="button">My Portfolio</span>
+                </a>
+              </div>
+              <div class="author-about">
+                <a href="/#about">
+                  <span class="button">About Me</span>
+                </a>
+              </div>
             </div>
-            <nav class="header__nav">
-                <ul class="header__list list">
-                    <li class="header__item">
-                        <a href="#portfolio">Портфолио</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#about-me">Обо мне</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#contact-me">Связаться со мной</a>
-                    </li>
-                </ul>
-            </nav>
+          </div>
         </div>
+        <div class="social-block social-header anim-item">
+          <ul>
+            <li>
+              <a
+                href="https://t.me/carnagexd"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-telegram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/CarnageXD"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/h.carnage"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/#contact"><i class="fas fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <main>
-        <div class="scroll-content">
-            <div class="scroll-content__body">
-                <div class="scroll-content__container container">
-                    <div class="scroll-content__label label">Hello, </div>
-                    <div class="scroll-content__title title">my name is Bogdan</div>
-                    <a href="#portfolio">
-                        <div class="scroll-down">
-                            <span>Scroll down</span>
-                            <img src="./img/arrow_downward_24px.png" alt="">
-                        </div>
-                    </a>
-                </div>
-                <div class="scroll-content__image"></div>
-            </div>
-        </div>
-        <section class="content">
-            <div class="content-container container">
-                <div id="portfolio">
-                    <h2 class="content__title">Портфолио</h2>
-                    <div class="portfolio__item">
-                        <div class="portfolio__description">
-                            <div class="portfolio__label label">HTML, CSS, JavaScript, Weather API</div>
-                            <div class="portfolio__title title">Weather Everyday </div>
-                            <div class="portfolio__text">Приложение для просмотра погоды в любой точке мира. Написан на
-                                чистом JavaScript, реализованы запросы, различные взаимодействия с WeatherAPI</div>
-                            <div class="portfolio__button">Посмотреть</div>
-                        </div>
-                        <div class="portfolio__item-image">
-                            <img src="./img/02.png" alt="">
-                        </div>
-                    </div>
-                    <div class="portfolio__item">
-                        <div class="portfolio__description">
-                            <div class="portfolio__label label">HTML, CSS, JavaScript, React, Redux, Firebase</div>
-                            <div class="portfolio__title title">Groupchat </div>
-                            <div class="portfolio__text">Чат, который работает в режиме реального времени на технологии
-                                Firebase</div>
-                            <div class="portfolio__button">Посмотреть</div>
-                        </div>
-                        <div class="portfolio__item-image">
-                            <img height="480px" width="320px" src="./img/01.png" alt="">
-                        </div>
-                    </div>
-                    <div class="portfolio__item">
-                        <div class="portfolio__description">
-                            <div class="portfolio__label label">HTML, CSS, JavaScript, React, Tailwind CSS, MovieDB API,
-                                Hooks
-                            </div>
-                            <div class="portfolio__title title">MovieLike</div>
-                            <div class="portfolio__text">Сервис для поиска и подбора фильмов, реализован на чистом React
-                            </div>
-                            <div class="portfolio__button">Посмотреть</div>
-                        </div>
-                        <div class="portfolio__item-image">
-                            <img height="480px" width="320px" src="./img/01.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div id="about-me">
-                    <h2 class="content__title">Обо мне</h2>
-                    <div class="about-me__info">
-                        <p class="about-me__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel
-                            magnam repellat animi
-                            expedita
-                            illum nam sequi quas dolorem laudantium necessitatibus quos nihil totam odio pariatur non
-                            eum
-                            culpa, quia vero officia assumenda hic. Eos dicta minus quasi magnam deserunt, vel rerum
-                            nulla
-                            architecto ex ullam neque dolore corrupti veritatis repudiandae odit ea quia officia itaque
-                            beatae libero et. Amet!</p>
-                        <p class="about-me__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                            voluptatibus consequatur
-                            nihil
-                            nostrum saepe optio architecto! Eaque adipisci nihil deleniti, inventore, ad amet aliquam
-                            veniam
-                            blanditiis pariatur atque nulla. Incidunt.</p>
-                        <p class="about-me__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ipsa
-                            dicta? Dolores vel
-                            harum
-                            soluta libero in fugit eum ratione quod aspernatur? Facilis!</p>
-                    </div>
-                </div>
-                <div id="contact-me">
-                    <h2 class="content__title">Связаться со мной</h2>
-                    <div class="contact-me__block">
-                        <ul>
-                            <li>
-                                <img src="" alt="">
-                            </li>
-                            <li>
-                                <img src="" alt="">
-                            </li>
-                            <li>
-                                <img src="" alt="">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <div class="section-transition"></div>
+    <main class="content">
+      <div class="container">
+        <section class="about-me-section anim-item" id="about">
+          <div class="section-header">
+            <h1>ABOUT ME</h1>
+          </div>
+          <div class="section-body">
+            <p>
+              Hey, my name is <strong>Bogdan</strong>, I'm 20 years old and I'm Front-end
+              Developer from <strong>Ukraine</strong>.&#128075;
+            </p>
+            <p>
+              I could describe myself as a <strong>hard-working, well-organized and
+              ready-to-learn guy, who always works to achieve team's goals</strong>. 	&#129489;
+            </p>
+            <p>
+              I always like to <strong>solve problems</strong> of varying complexity, to make them easier, to translate a various interfaces into reality.&#129311;&#127995;
+            </p>
+            <p>
+              I'm really <strong>fond of coding</strong> for a few years and <strong>constantly try to
+              learn something new</strong>. My main experience is <strong>front-end development</strong>, but I also have a little experience in back-end. There's short list of my <strong>skills</strong>:
+            </p>
+            <p>
+              <ul class="skills-list">                
+                <li>HTML + CSS;</li>
+                <li>SASS;</li>
+                <li>Responsive design;</li>
+                <li>JavaScript</li>
+                <li>UI Libraries: Material UI, Bootstrap, Tailwind;</li>
+                <li>React;</li>
+                <li>Redux, Redux Toolkit;</li>
+                <li>Axios, RTK Query, Thunk;</li>
+                <li>Typescript;</li>
+                <li>REST API;</li>
+                <li>Express;</li>
+                <li>MongoDB;</li>
+                <li>Git;</li>
+                <li>Firebase;</li>
+              </ul>
+            </p>
+          </div>
         </section>
+        <section class="my-portfolio-section" id="portfolio">
+          <div class="section-header">
+            <h1>PORTFOLIO</h1>
+          </div>
+          <div class="section-body">
+            <div class="project  anim-item">
+              <div class="project-body">
+                <div class="project-right reverse">
+                  <div class="project-info">
+                    <div class="line-word project-stack">React, Typescript, Material UI, Redux Toolkit, RTK Query, Express, Mongoose, REST API, JWT</div>
+                    <div class="project-title">MERN Store</div>
+                    <div class="project-description">
+                      <p>An e-commerce store based on MERN-stack </p>
+                      <p>This demo application provides the main functions that you'd expect from an e-commerce store, such a viewing products, making purchases, and following up on purchases in the user's profile.</p>
+                      <p>The application separated on two parts: front-end and backend</p>
+                      <p>The backend implements basic actions that a user can do on an e-commerce website. The frontend implements the logic of user interaction with the backend logic.</p>
+                       </div>
+                    <div class="project-buttons buttons">
+                      <a href="https://carnagexd.github.io/mern-store-client/#/" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Visit</span>
+                      </a>
+                      <a href="#" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Source code</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-left">
+                  <div class="project-img">
+                    <img src="./assets/img/mern-store.jpg"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project  anim-item">
+              <div class="project-body">                
+                <div class="project-right">
+                  <div class="project-info">
+                    <div class="line-word project-stack">React, Typescript, Tailwind, MovieDB API</div>
+                    <div class="project-title">Movielike</div>
+                    <div class="project-description">
+                      <p>A movie library based on React and MovieDB API </p>
+                      <p>This application allows you to find some movies to watch.</p>
+                      <p>You can view the movie list, movie's details, such a genre, description, watch the movie's trailer, similar movies and if you like the film, you can add it to 'watch later' list in order to not lose it movie. Also implemented search movie by name.</p>
+                      <p>Implemented pagination and movie's pre-loader with skeleton loader</p>
+                      <p>All data is provided by MovieDB API.</p>
+                    </div>
+                    <div class="project-buttons buttons">
+                      <a href="https://carnagexd.github.io/movie-ts/#/" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Visit the website</span>
+                      </a>
+                      <a href="https://github.com/CarnageXD/movie-ts" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Source code and details</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-left">
+                  <div class="project-img">
+                    <img src="./assets/img/movielike.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project  anim-item">
+              <div class="project-body">
+                <div class="project-right reverse">
+                  <div class="project-info">
+                    <div class="line-word project-stack">React, Redux, Firebase</div>
+                    <div class="project-title">Group Chat</div>
+                    <div class="project-description">
+                      <p>Simple app that implements basic actions that you'd expect from a chat app.</p>
+                      <p>To start chatting, you just have to register or log into your account.</p>
+                      <p>You can distinguish yourself from the others users by putting your unique nickname and avatar in setting.</p>
+                      <p>Then you can go to chat and talk to others about whatever you want</p>
+                      <p>All application powered by Firebase (auth features, storing users, users settings, messages data).</p>
+                    </div>
+                    <div class="project-buttons buttons">
+                      <a href="https://chat-app-eb863.web.app/" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Visit</span>
+                      </a>
+                      <a href="https://github.com/CarnageXD/chat-app" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Source code</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-left">
+                  <div class="project-img">
+                    <img src="./assets/img/groupchat.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project  anim-item">
+              <div class="project-body">                
+                <div class="project-right">
+                  <div class="project-info">
+                    <div class="line-word project-stack">HTML, CSS, JavaScript, WeatherBit API</div>
+                    <div class="project-title">WeatherEveryday!</div>
+                    <div class="project-description">
+                      <p>Simple weather app based on pure JavaScript.</p>
+                      <p>A responsive design was developed, that allows to view a weather data on any device.</p>
+                      <p>All displayed data in this application is provided by WeatherBit API. For the today weather, the 'current API' is used, for the rest of days, '16-days API' is used.</p>
+                      <p>This app implements two types of logic: weather forecast based on user input or by user geolocation.</p>
+                    </div>
+                    <div class="project-buttons buttons">
+                      <a href="https://carnagexd.github.io/weather-everyday/" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Visit</span>
+                      </a>
+                      <a href="https://github.com/CarnageXD/weather-everyday" target="_blank"
+                      rel="noopener noreferrer">
+                        <span class="button project-button">Source code</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-left">
+                  <div class="project-img">
+                    <img src="./assets/img/weather-everyday.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-    <footer></footer>
-    <script src="./script.js"></script>
-</body>
-
+    <footer>
+      <div class="container">
+        <div class="footer-content" id="contact">
+          <div class="footer-title">Contact me</div>
+          <div class="footer-subtitle">for any purpose</div>
+          <div class="footer-email"><a href="mailto:hlukhaynch26@gmail.com">hlukhaynch26@gmail.com</a></div>
+          <div class="footer-links">
+            <ul>
+              <li>
+                <a
+                  href="https://t.me/carnagexd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-telegram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/CarnageXD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/h.carnage"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
